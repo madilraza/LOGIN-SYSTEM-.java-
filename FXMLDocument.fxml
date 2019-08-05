@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="498.0" prefWidth="620.0" style="-fx-background-color: f57d00;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication11.FXMLDocumentController">
+   <children>
+      <AnchorPane layoutX="315.0" layoutY="58.0" prefHeight="269.0" prefWidth="265.0" style="-fx-background-color: #000000;">
+         <effect>
+            <Glow />
+         </effect>
+         <children>
+            <TextField fx:id="username" layoutX="48.0" layoutY="65.0" opacity="0.72" prefHeight="25.0" prefWidth="170.0" promptText="user name" style="-fx-background-color: #808080;" />
+            <ImageView fitHeight="269.0" fitWidth="562.0" layoutX="-294.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/Mood%20Music%20Crew%20(2).png" />
+               </image>
+            </ImageView>
+            <PasswordField fx:id="password" layoutX="48.0" layoutY="122.0" opacity="0.61" prefHeight="25.0" prefWidth="170.0" promptText="password" style="-fx-background-color: #808080;" />
+            <Label layoutX="94.0" layoutY="14.0" prefHeight="17.0" prefWidth="77.0" text="sign up" textFill="#d00c0c">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="78.0" layoutY="217.0" prefHeight="17.0" prefWidth="112.0" text="forgot password ?" textFill="#b91212" />
+            <Button fx:id="signup" layoutX="78.0" layoutY="167.0" mnemonicParsing="false" onAction="#signup" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #800000;" text="sign up" textFill="#f8f4f4" />
+            <BorderPane layoutX="-300.0" layoutY="-4.0" prefHeight="269.0" prefWidth="284.0">
+               <bottom>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" style="-fx-background-color: #800000;" text="sign up" textFill="#fcfafa" BorderPane.alignment="CENTER" />
+               </bottom>
+               <top>
+                  <Label prefHeight="44.0" prefWidth="148.0" text="Ary18sw18.blogspot.com" textFill="#fcfafa" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+      <Label fx:id="shw" layoutX="23.0" layoutY="349.0" prefHeight="107.0" prefWidth="557.0" style="-fx-background-color: #800000;" textFill="#110000">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" prefHeight="49.0" prefWidth="557.0" style="-fx-background-color: #800000;" text="                     Developer IT@cyber centre " textFill="#fcf8f8">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
