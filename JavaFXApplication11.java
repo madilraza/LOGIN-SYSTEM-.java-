@@ -42,6 +42,12 @@ this.password = password;
 }
 
 }
+
+class loginsystem{
+
+
+  
+}
     /**
      * @param args the command line arguments
      */
