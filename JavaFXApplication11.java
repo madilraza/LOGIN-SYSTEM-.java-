@@ -16,22 +16,37 @@ import javafx.stage.Stage;
  * @author ADIL RAZA
  */
 public class JavaFXApplication11 extends Application {
-    
+
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        
+
         Scene scene = new Scene(root);
-        
+
         stage.setScene(scene);
         stage.show();
     }
+String username ;
+String Password;
 
+class data{
+
+public data(){
+
+  System.out.println("The data is being saved here ");
+}
+public data (String username , String password){
+this.username = username;
+this.password = password;
+
+}
+
+}
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         launch(args);
     }
-    
+
 }
